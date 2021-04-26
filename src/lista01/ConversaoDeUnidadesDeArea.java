@@ -16,4 +16,11 @@ public class ConversaoDeUnidadesDeArea {
     public static double AcreParaPe2(double value) {
         return value * 43560;
     }
+
+    
+    public static double metro2ParaCm2(double value) {
+        return pe2ToCm2(metro2ParaPe2(value));
+    }
+
 }
+
