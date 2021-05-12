@@ -3,7 +3,7 @@ package lista01;
 public class CampoDeFutebol extends ConversaoDeUnidadesDeArea {
     private final static double area = 8250.00;
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         getValorEmPe2();
         getValorEmCm2();
     }

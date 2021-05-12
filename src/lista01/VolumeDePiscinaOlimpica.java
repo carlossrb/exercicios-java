@@ -3,7 +3,7 @@ package lista01;
 public class VolumeDePiscinaOlimpica extends ConversaoDeUnidadesDeVolume {
     private final static int volume = 1890;
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         getValorLitros();
         getValorPe3();
     }
